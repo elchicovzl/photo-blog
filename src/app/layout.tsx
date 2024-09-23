@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="h-screen w-screen">
         <Providers>
           <AppNavbar />
-          <main className="flex-grow overflow-auto bg-[url(/light-bg.svg)] bg-cover dark:bg-[url(/dark-bg.svg)]">
+          <main className="flex-grow overflow-auto">
             <Suspense>{children}</Suspense>
           </main>
         </Providers>

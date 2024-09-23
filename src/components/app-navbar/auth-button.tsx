@@ -1,13 +1,13 @@
 "use client";
 
 import {
-  Avatar,
-  Button,
-  CircularProgress,
-  Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownTrigger,
+    Avatar,
+    Button,
+    CircularProgress,
+    Dropdown,
+    DropdownItem,
+    DropdownMenu,
+    DropdownTrigger,
 } from "@nextui-org/react";
 import { IconBrandGoogle } from "@tabler/icons-react";
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -64,8 +64,7 @@ export default function AuthButton({ minimal = true }: { minimal?: boolean }) {
           callbackUrl: "/profile",
         })
       }
-      color="danger"
-      variant="ghost"
+      color="primary" variant="ghost"
     >
       <IconBrandGoogle />
       Sign In
