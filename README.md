@@ -51,22 +51,6 @@ A basic Next.js starter.
   - [@auth/drizzle-adapter](https://www.npmjs.com/package/@auth/drizzle-adapter)
     - [Auth.js Drizzle Adapter Documentation](https://authjs.dev/getting-started/adapters/drizzle)
 
-## Branches
-
-The main branch contains the entire setup. The following branches build on each other from top to bottom:
-
-- [base](https://github.com/w3cj/next-start/tree/base)
-  - eslint / prettier settings
-- [nextui](https://github.com/w3cj/next-start/tree/nextui)
-  - layout / styles
-  - dark / light theme toggle
-- [typesafe-env](https://github.com/w3cj/next-start/tree/typesafe-env)
-  - typesafe environment variables
-- [next-auth](https://github.com/w3cj/next-start/tree/next-auth)
-  - google oauth with no database
-- [drizzle](https://github.com/w3cj/next-start/tree/drizzle) / [main](https://github.com/w3cj/next-start)
-  - basic drizzle schema with users / accounts / sessions
-
 ## Setup
 
 1. Install dependencies:
